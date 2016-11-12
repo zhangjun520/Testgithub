@@ -1,6 +1,6 @@
 //
-//  ____UITests.m
-//  测试项目UITests
+//  __testUITests.m
+//  测试testUITests
 //
 //  Created by zj on 2016/11/12.
 //  Copyright © 2016年 www.ujic. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ____UITests : XCTestCase
+@interface __testUITests : XCTestCase
 
 @end
 
-@implementation ____UITests
+@implementation __testUITests
 
 - (void)setUp {
     [super setUp];
