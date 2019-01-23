@@ -21,6 +21,7 @@
 		8410F1E221F17DC100269681 /* 750*1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 8410F1E121F17DC100269681 /* 750*1334.png */; };
 		8410F1E421F1A0CF00269681 /* code-wallpaper-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8410F1E321F1A0CF00269681 /* code-wallpaper-8.jpg */; };
 		84712AF121F8171A000C3E1E /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 84712AF021F8171A000C3E1E /* ViewController1.m */; };
+		84712AF421F86DF2000C3E1E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84712AF321F86DF2000C3E1E /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		8410F1E321F1A0CF00269681 /* code-wallpaper-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "code-wallpaper-8.jpg"; sourceTree = "<group>"; };
 		84712AEF21F8171A000C3E1E /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		84712AF021F8171A000C3E1E /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		84712AF221F86DF2000C3E1E /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		84712AF321F86DF2000C3E1E /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		A5C10EEC2BC73CC88871374B /* Pods-测试test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-测试test.release.xcconfig"; path = "Pods/Target Support Files/Pods-测试test/Pods-测试test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +109,8 @@
 		38F4F4271DD6BE6500FAF5C2 = {
 			isa = PBXGroup;
 			children = (
+				84712AF221F86DF2000C3E1E /* ViewController2.h */,
+				84712AF321F86DF2000C3E1E /* ViewController2.m */,
 				8410F1E321F1A0CF00269681 /* code-wallpaper-8.jpg */,
 				8410F1E121F17DC100269681 /* 750*1334.png */,
 				8410F1DF21F0773E00269681 /* timg.jpg */,
@@ -346,6 +351,7 @@
 				38F4F4381DD6BE6500FAF5C2 /* AppDelegate.m in Sources */,
 				8410F1DE21F0586E00269681 /* UIImageView+ASAdditions.m in Sources */,
 				38F4F4351DD6BE6500FAF5C2 /* main.m in Sources */,
+				84712AF421F86DF2000C3E1E /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
