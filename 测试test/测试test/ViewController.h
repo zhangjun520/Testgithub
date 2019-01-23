@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *hhhh;
+
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topHeight;
+
 
 @end
 

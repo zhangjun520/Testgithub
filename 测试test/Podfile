@@ -2,5 +2,14 @@ platform :ios, '9.0'
 
 target '测试test' do
 pod 'AFNetworking', '~> 3.0'
-
+pod 'Masonry'
+pod 'SDAutoLayout', '~> 2.1.9'
+pod 'YYWebImage'
+pod 'YYText'
+pod 'YYCache'
+pod 'YYImage'
+pod 'YYAsyncLayer'
+pod 'YYCategories'
+pod 'YYKeyboardManager'
+pod 'YYDispatchQueuePool'
 end

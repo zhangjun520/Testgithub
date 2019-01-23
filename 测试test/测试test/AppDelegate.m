@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateInitialViewController];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    vc.title = @"首页";
+    UITabBarController *tbc = [[UITabBarController alloc] init];
+    tbc.viewControllers = @[nvc];
+    self.window.rootViewController = tbc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
