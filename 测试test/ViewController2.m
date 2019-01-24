@@ -20,7 +20,8 @@
     self.view.backgroundColor = [UIColor grayColor];
     UIImage *img = [[UIImage alloc] init];
     UIColor *color = [UIColor purpleColor];
-
+  ///哈哈哈
+    
 }
 
 /*
