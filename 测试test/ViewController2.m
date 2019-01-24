@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    //张俊注释的代码
     self.view.backgroundColor = [UIColor grayColor];
     UIImage *img = [[UIImage alloc] init];
 
